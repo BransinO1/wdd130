@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+
+:root {
+    --primary-color: #0D0708;
+    --secondary-color: #4C4B63;
+    --accent1-color: #6D9DC5;
+    --accent2-color: #48E5C2;
+
+    --heading-font: "Open Sans", serif;
+    --paragraph-font: "Open Sans", serif;
+
+    --nav-background-color: #6D9DC5;
+    --nav-link-color: #0D0708;
+    --nav-hover-link-color: #4C4B63;
+    --nav-hover-background-color: #48E5C2;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    width: 1250px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--accent2-color);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+article {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    width: 45%;
+}
+
+article img {
+    float: right;
+    margin-left: 20px;
+}
+
+header {
+    padding: 20px;
+    font-family: var(--heading-font);
+}
+
+p {
+    padding: 25px;
+    color: var(--primary-color)
+}
+
+.sociallink {
+    text-decoration: none;
+}
