@@ -7,12 +7,13 @@
     <meta name="description" content="Welcome to Whitewater Rafting! Come and discover what Whitewater Rafting can do for you.">
     <meta name="author" content="Corbin Meacham">
     <link rel="stylesheet" href="styles/rafting.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <img src="images/logo.png" alt="Whitewater Rafting Logo">
         <nav>
-            <ul>
+            <ul class ="navigation">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="trips.html">Trips</a></li>
@@ -33,35 +34,60 @@
             <p>At Whitewater Rafting, our purpose is to empower our patrons with the opportunities and abilities to experiance the joys of Whitewater Rafting. We lovee to make it our mission to provide these lifechanging experiances to people from all over the world. Come join the ranks as we take another trip into the great outdoors!"</p>
         </article>
     
-        <section>
+        <section class="history-section">
             <h2>History</h2>
-            <p>Whitewater Rafting was founded in 2023 and is one of the best rafting agencies in the State of Idaho. It was founded for the sole purpose of bringing together adventurers and creating lasting memories. </p>
+            <div class="history-content">
+                <div class="history-image">
+                    <img src="images/history-1.jpg" alt="History Image">
+                </div>
+                <div class="history-text">
+                    <p>Whitewater Rafting was founded in 2023 and is one of the best rafting agencies in the State of Idaho. It was founded for the sole purpose of bringing together adventurers and creating lasting memories.</p>
+                </div>
+            </div>
         </section>
-    
-        <section>
+        
+        <section class="rafting-images">
             <h2>Adventure Awaits You!</h2>
-            <div class="rafting-images">
-                <img src="images/rafting-1.jpg" alt="Whitewater Rafting Image 1">
-                <img src="images/rafting-2.jpg" alt="Whitewater Rafting Image 2">
-                <img src="images/rafting-3.jpg" alt="Whitewater Rafting Image 3">
-                <img src="images/rafting-4.jpg" alt="Whitewater Rafting Image 4">
-                <img src="images/rafting-5.jpg" alt="Whitewater Rafting Image 5">
+            <div class="adventure-images">
+                <figure>
+                    <img src="images/rafting-1.jpg" alt="Boise River">
+                    <figcaption>Boise River</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/rafting-2.jpg" alt="The Pinchpoint">
+                    <figcaption>The Pinchpoint</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/rafting-3.jpg" alt="Jungle Cruise">
+                    <figcaption>Jungle Cruise</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/rafting-4.jpg" alt="Highwater Rides">
+                    <figcaption>Highwater Rides</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/rafting-5.jpg" alt="Waterfall Wonders">
+                    <figcaption>Waterfall Wonders</figcaption>
+                </figure>
             </div>
         </section>
     </main>
     <footer>
         <p>©️ 2023   Whitewater Rafting   Corbin Meacham</p>
-        <nav class="sociallinks">
-            <a href="https://twitter.com">
-                <img src= "images/twitter.png" alt="Twitter">
-            </a>
-            <a href="https://instagram.com">
-                <img src="images/instagram.png" alt="Instagram">
-            </a>
-            <a href="https://facebook.com">
-                <img src="images/facebook.png" alt="Facebook">
-            </a>
-        </nav>
+        <div class="footer-content">
+            <nav class="sociallinks">
+                <a href="https://twitter.com" class="sociallink">
+                    <img src="images/twitter.png" alt="Twitter">
+                </a>
+                <a href="https://instagram.com" class="sociallink">
+                    <img src="images/instagram.png" alt="Instagram">
+                </a>
+                <a href="https://facebook.com" class="sociallink">
+                    <img src="images/facebook.png" alt="Facebook">
+                </a>
+            </nav>
+        </div>
     </footer>
+    
 </body>
 </html>
