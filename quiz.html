@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic HTML and CSS Quiz</title>
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+<body>
+    <h1>Basic HTML and CSS Quiz</h1>
+    <form action="submit_quiz.php" method="post">
+<!-- HTML stands for Hypertext Markup Language, its what is used to create and structure web content  -->
+        <fieldset>
+            <legend>Question 1: What does HTML stand for?</legend>
+            <label for="q1">
+                <input type="text" id="q1" name="q1" required>
+            </label>
+        </fieldset>
+<!-- The purpose of CSS or Cascading Style Sheets is to adjuct and control the presentation of webpages. Its used to style those pages and allows the developer to make the page their own  -->
+        <fieldset>
+            <legend>Question 2: Explain the purpose of CSS.</legend>
+            <label for="q2">
+                <textarea id="q2" name="q2" rows="4" cols="50" required></textarea>
+            </label>
+        </fieldset>
+<!-- The correct HTML element is <a> or ANCHOR to create hyperlinks -->
+        <fieldset>
+            <legend>Question 3: What is the correct HTML element for creating a hyperlink?</legend>
+            <label for="q3">
+                <select id="q3" name="q3" required>
+                    <option value="" disabled selected>Select an option</option>
+                    <option value="A"> &lt;a&gt; (Anchor) </option>
+                    <option value="B"> &lt;p&gt; (Paragraph) </option>
+                    <option value="C"> &lt;a href=""&gt; (Invalid anchor) </option>
+                </select>
+            </label>
+        </fieldset>
+ <!-- There are 6 avaiable heading levels -->       
+        <fieldset>
+            <legend>Question 4: How many heading levels are available in HTML?</legend>
+            <label for="q4">
+                <input type="number" id="q4" name="q4" required>
+            </label>
+        </fieldset>
+<!-- Use COLOR to change the text color -->
+        <fieldset>
+            <legend>Question 5: Which CSS property is used to change the text color of an element?</legend>
+            <label for="q5_answer1">
+                <input type="radio" id="q5_answer1" name="q5" value="A"> font-color
+            </label><br>
+            <label for="q5_answer2">
+                <input type="radio" id="q5_answer2" name="q5" value="B"> color
+            </label><br>
+            <label for="q5_answer3">
+                <input type="radio" id="q5_answer3" name="q5" value="C"> text-color
+            </label><br>
+        </fieldset>
+
+        <input type="submit" value="Submit Quiz">
+    </form>
+</body>
+</html>
