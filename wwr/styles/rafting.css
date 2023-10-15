@@ -196,6 +196,80 @@ footer {
     line-height: 1.5;
 }
 
+.employee-profiles {
+    text-align: center;
+    padding: 20px;
+}
+
+.employee {
+    display: inline-block;
+    text-align: center;
+    margin: 20px;
+}
+
+.employee img {
+    max-width: 100%;
+    height: auto;
+}
+
+.employee p {
+    font-size: 16px;
+    margin-top: 10px;
+    color: var(--primary-color);
+}
+
+.contact-section {
+    text-align: center;
+    padding: 20px;
+}
+
+.contact-form {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    width: 60%;
+    margin: 0 auto;
+}
+
+.contact-form label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form input[type="radio"] {
+    margin-right: 5px;
+}
+
+.contact-form label[for="subscribe"] {
+    font-weight: normal;
+    margin-top: 0;
+    display: inline;
+}
+
+.contact-form button {
+    background-color: var(--accent1-color);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.contact-form button:hover {
+    background-color: var(--accent2-color);
+}
 
 
 
